@@ -1,0 +1,137 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3229559745242762 0.5118190363844272 0.7960783331517016 1.3404757399081275
+  position -1.7990414126473582 -6.007552314030148 4.668292321112562
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 4 4
+  floorTileSize 1 1
+}
+Wall {
+  translation 2 -0.01 0
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  size 4 0.1 0.6
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1 -1 0
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  name "inner1"
+  size 2 0.1 0.5
+  appearance Roughcast {
+    colorOverride 0.4 0.25 0.12
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1 1.5 0
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  name "inner5"
+  size 1 0.1 0.5
+  appearance Roughcast {
+    colorOverride 0.4 0.25 0.12
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0 0.5 0
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  name "inner6"
+  size 1 0.1 0.5
+  appearance Roughcast {
+    colorOverride 0.4 0.25 0.12
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1 -1 0
+  rotation 0 0 -0.9999999999999999 0
+  name "inner2"
+  size 2 0.1 0.5
+  appearance Roughcast {
+    colorOverride 0.4 0.25 0.12
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0 1 0
+  rotation 0 0 -0.9999999999999999 0
+  name "inner3"
+  size 2 0.1 0.5
+  appearance Roughcast {
+    colorOverride 0.4 0.25 0.12
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -2 -0.01 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(3)"
+  size 4 0.1 0.6
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0 2 0
+  name "wall(2)"
+  size 4 0.1 0.6
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0 -2 0
+  name "wall(1)"
+  size 4 0.1 0.6
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+E-puck {
+  hidden position_0_0 94.84582942524759
+  hidden position_0_1 131.49627540443817
+  hidden rotation_1 0 -1 0 5.685135489625797
+  hidden rotation_2 0 1 0 5.832569260846436
+  translation -1.1 -1 -6.52269e-05
+  rotation -0.0003504739739547247 0.004443376570790128 0.999990066736987 0.2734641856070437
+  controller "wall_follow_right"
+}
