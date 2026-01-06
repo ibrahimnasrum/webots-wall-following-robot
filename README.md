@@ -197,6 +197,11 @@ Fix:
 
 ---
 
-## License
+## Group Members
 
-Add your preferred license here (MIT / Apache-2.0 / etc.)
+1. Ibrahim Bin Nasrum (2116467)
+2. Almasri Suhail Jihad (2128771)
+3. Maeyd Abdallah Mahamat Abacar (2117777)
+4. Khairuldddin bin Zulkiflei (2210527)
+5. Muhammad Raziq Bin Kaharuddin (2120225)
+
